@@ -54,10 +54,10 @@ var NgravelloGenerator = yeoman.generators.Base.extend({
     this.mkdir('app/commons/utiles');
     
     this.template('Gruntfile.js', 'Gruntfile.js');
-    // this.template('index.html', 'index.html');
-    // this.template('_config.json', 'config.json');
-    this.copy('_package.json', 'package.json');
-    this.copy('_bower.json', 'bower.json');
+    this.template('index.html', 'app/index.html');
+    this.template('_config.json', 'config.json');
+    this.template('_package.json', 'package.json');
+    this.template('_bower.json', 'bower.json');
   },
 
   projectfiles: function () {
@@ -65,6 +65,11 @@ var NgravelloGenerator = yeoman.generators.Base.extend({
     this.copy('jshintrc', '.jshintrc');
     this.copy('ravello-logo-small.png', 'assets/images/ravello-logo-small.png');
     this.copy('ravello-logo-small.png', 'assets/images/ravello-logo.png');
+  },
+
+  runtime: function () {
+    this.copy('bowerrc', '.bowerrc');
+    this.copy('gitignore', '.gitignore');
   }
 });
 
