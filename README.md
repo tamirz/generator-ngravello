@@ -1,13 +1,13 @@
-# generator-ngravello [![Build Status](https://secure.travis-ci.org/tamirz/generator-ngravello.png?branch=master)](https://travis-ci.org/tamirz/generator-ngravello)
+# generator-ngravello
 
 > [Yeoman](http://yeoman.io) generator
 
 
 ## Getting Started
 
-### Porject goals
+### Porject Goal
 
-Supply a yeoman generator for angular ravello projects
+Supply a yeoman generator for Ravello's angular projects
 
 ```
 $ npm install -g yo
