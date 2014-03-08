@@ -1,4 +1,4 @@
-# generator-ngravello ![alt tag](https://raw.github.com/tamirz/generator-ngravello/master/app/templates/ravello-logo.png)
+![alt tag](https://raw.github.com/tamirz/generator-ngravello/master/app/templates/ravello-logo-small.png) # generator-ngravello 
 
 > [Yeoman](http://yeoman.io) generator
 
