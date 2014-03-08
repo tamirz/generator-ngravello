@@ -27,7 +27,7 @@ var NgravelloGenerator = yeoman.generators.Base.extend({
 
     var prompts = [{
       name: 'ngAppName',
-      message: 'How do you want to call you App?'
+      message: 'How do you want to call your App?'
     }];
 
     this.prompt(prompts, function (props) {
