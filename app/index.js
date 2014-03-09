@@ -51,7 +51,7 @@ var NgravelloGenerator = yeoman.generators.Base.extend({
     this.mkdir('app/commons/directives');
     this.mkdir('app/commons/entities');
     this.mkdir('app/commons/templates');
-    this.mkdir('app/commons/utiles');
+    this.mkdir('app/commons/utils');
     
     this.template('Gruntfile.js', 'Gruntfile.js');
     this.template('index.html', 'app/index.html');

@@ -9,13 +9,36 @@
 
 Supply a yeoman generator for Ravello's angular projects
 
+Use npm to install yo globally:
+
 ```
 $ npm install -g yo
 ```
 
+### Project Structure
+
+├── app
+    ├── commons
+    │   ├── directives
+    │   ├── entities
+    │   ├── templates
+    │   └── utils
+    ├── index.html
+    ├── pages
+    ├── proxies
+    ├── services
+    └── transformations
+├── assets
+    ├── fonts
+    ├── images
+    │   ├── ravello-logo-small.png
+    │   └── ravello-logo.png
+    └── styles
+
 ### Ngravello Generator
 
-Ngravello generator is very light. The app generator also optionally installs Bootstrap and additional AngularJS modules, such as angular-resource (installed by default).
+Ngravello generator is very light. The app generator optionally installs Bootstrap and additional AngularJS modules, such as angular-resource (installed by default).
+
 
 To install generator-ngravello from npm, run:
 
