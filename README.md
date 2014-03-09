@@ -17,23 +17,6 @@ $ npm install -g yo
 
 ### Project Structure
 
-├── app <br/>
-    ├── commons <br/>
-    │   ├── directives <br/>
-    │   ├── entities
-    │   ├── templates
-    │   └── utils
-    ├── index.html
-    ├── pages
-    ├── proxies
-    ├── services
-    └── transformations
-├── assets
-    ├── fonts
-    ├── images
-    │   ├── ravello-logo-small.png
-    │   └── ravello-logo.png
-    └── styles
 
 ### Ngravello Generator
 
