@@ -17,9 +17,9 @@ $ npm install -g yo
 
 ### Project Structure
 
-├── app
-    ├── commons
-    │   ├── directives
+├── app <br/>
+    ├── commons <br/>
+    │   ├── directives <br/>
     │   ├── entities
     │   ├── templates
     │   └── utils
